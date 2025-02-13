@@ -37,7 +37,7 @@ const UserInfo = () => {
   };
 
   return (
-    <main className="flex flex-col justify-center md:flex-row-reverse md:gap-x-4 px-12 py-20 w-full h-full items-center space-y-6 bg-enterImg bg-repeat bg-cover bg-bottom">
+    <main className="flex flex-col justify-center md:flex-row-reverse md:gap-x-4 px-12 py-20 w-full h-screen items-center space-y-6 bg-enterImg bg-repeat bg-cover bg-bottom">
       <div className="bg-white w-full h-full max-w-[420px] max-h-[300px]">
         <Form {...form}>
           <form
